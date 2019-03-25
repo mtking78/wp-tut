@@ -17,9 +17,9 @@ searchIcon.addEventListener('click', function() {
 menuIcon.addEventListener('click', function() {
   if(slideoutMenu.style.opacity == '1') {
     slideoutMenu.style.opacity = '0';
-    slideoutMenu.style.opacity = 'none';
+    slideoutMenu.style.pointerEvents = 'none';
   } else {
     slideoutMenu.style.opacity = '1';
-    slideoutMenu.style.opacity = 'auto';
+    slideoutMenu.style.pointerEvents = 'auto';
   }
 });
